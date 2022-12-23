@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="165.656" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\rohitsuryan\eclipse-workspace\Framework_Selenium\target\test-classes;C:\Users\rohitsuryan\eclipse-workspace\Framework_Selenium\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\RedHat\java-11-openjdk-11.0.5-2\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire2086879248569036082\surefirebooter8747118100352770918.jar C:\Windows\Temp\surefire2086879248569036082 2022-12-23T15-11-45_463-jvmRun1 surefire8320924333045454025tmp surefire_09351734225101538970tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\rohitsuryan\eclipse-workspace\Framework_Selenium\target\test-classes;C:\Users\rohitsuryan\eclipse-workspace\Framework_Selenium\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\RedHat\java-11-openjdk-11.0.5-2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\rohitsuryan\eclipse-workspace\Framework_Selenium"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire2086879248569036082\surefirebooter8747118100352770918.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.5+10-LTS"/>
+    <property name="user.name" value="IN-CGKRXM3$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.dir" value="C:\Users\rohitsuryan\eclipse-workspace\Framework_Selenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\RedHat\java-11-openjdk-11.0.5-2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.8.6-bin\apache-maven-3.8.6/bin;C:\Program Files\RedHat\java-11-openjdk-11.0.5-2/bin;C:\Program Files\RedHat\java-11-openjdk-11.0.5-2/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\.Net &amp; Java Software\Open JKD -11\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Users\rohitsuryan\apache-maven-3.8.6\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\.Net &amp; Java Software\Open JKD -11\bin;C:\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\rohitsuryan\AppData\Local\Android\Sdk\build-tools;C:\Users\rohitsuryan\AppData\Local\Android\Sdk\platform-tools;C:\Users\rohitsuryan\AppData\Local\Android\Sdk\tools;C:\Program Files\nodejs\;C:\Program Files\RedHat\java-11-openjdk-11.0.5-2\\bin;C:\Program Files\RedHat\java-11-openjdk-11.0.5-2\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.5+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="createContact[Tom, Peter, Google, Lead](1)" classname="com.crm.qa.testcases.ContactsPageTest" time="6.744">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Found Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //a[contains(text(),'Sign Up')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //a[contains(text(),'Sign Up')]]
+Trying to find Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Found Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(text(),'Login')]
+Found Element By : By.xpath: //div[contains(text(),'Login')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //div[contains(text(),'Login')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //div[contains(text(),'Login')]]
+Trying to find Element By : By.xpath: //*[@id="main-nav"]/div[3]/a
+Found Element By : By.xpath: //*[@id="main-nav"]/div[3]/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //*[@id="main-nav"]/div[3]/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //*[@id="main-nav"]/div[3]/a]
+Trying to find Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button
+Found Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button]
+Trying to find Element By : By.name: first_name
+Found Element By : By.name: first_name
+Trying to find Element By : By.name: last_name
+Found Element By : By.name: last_name
+Trying to find Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Found Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Trying to find Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Found Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Trying to find Element By : By.name: category
+Found Element By : By.name: category
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> name: category]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> name: category]
+Trying to find Element By : By.xpath: //span[text()='Lead']
+Found Element By : By.xpath: //span[text()='Lead']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //span[text()='Lead']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //span[text()='Lead']]
+Trying to find Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]
+Found Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ac37cd4cc163c27e096fa904b8a1165d)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]]
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 29841
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 23, 2022 3:12:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createContact[David, Cris, Amazon, Customer](2)" classname="com.crm.qa.testcases.ContactsPageTest" time="6.676">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Found Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //a[contains(text(),'Sign Up')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //a[contains(text(),'Sign Up')]]
+Trying to find Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Found Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(text(),'Login')]
+Found Element By : By.xpath: //div[contains(text(),'Login')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //div[contains(text(),'Login')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //div[contains(text(),'Login')]]
+Trying to find Element By : By.xpath: //*[@id="main-nav"]/div[3]/a
+Found Element By : By.xpath: //*[@id="main-nav"]/div[3]/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //*[@id="main-nav"]/div[3]/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //*[@id="main-nav"]/div[3]/a]
+Trying to find Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button
+Found Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button]
+Trying to find Element By : By.name: first_name
+Found Element By : By.name: first_name
+Trying to find Element By : By.name: last_name
+Found Element By : By.name: last_name
+Trying to find Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Found Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Trying to find Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Found Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Trying to find Element By : By.name: category
+Found Element By : By.name: category
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> name: category]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> name: category]
+Trying to find Element By : By.xpath: //span[text()='Customer']
+Found Element By : By.xpath: //span[text()='Customer']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //span[text()='Customer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //span[text()='Customer']]
+Trying to find Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]
+Found Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1d7c6815636567cff3e1b4bf41fb9b8)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 24649
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 23, 2022 3:12:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createContact[Mukta, Sharma, Ebay, Contact](3)" classname="com.crm.qa.testcases.ContactsPageTest" time="6.874">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Found Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //a[contains(text(),'Sign Up')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //a[contains(text(),'Sign Up')]]
+Trying to find Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Found Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(text(),'Login')]
+Found Element By : By.xpath: //div[contains(text(),'Login')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //div[contains(text(),'Login')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //div[contains(text(),'Login')]]
+Trying to find Element By : By.xpath: //*[@id="main-nav"]/div[3]/a
+Found Element By : By.xpath: //*[@id="main-nav"]/div[3]/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //*[@id="main-nav"]/div[3]/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //*[@id="main-nav"]/div[3]/a]
+Trying to find Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button
+Found Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/a/button]
+Trying to find Element By : By.name: first_name
+Found Element By : By.name: first_name
+Trying to find Element By : By.name: last_name
+Found Element By : By.name: last_name
+Trying to find Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Found Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Trying to find Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Found Element By : By.xpath: //*[@id="main-content"]/div/div[2]/form/div[2]/div[2]/div/div/input
+Trying to find Element By : By.name: category
+Found Element By : By.name: category
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> name: category]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> name: category]
+Trying to find Element By : By.xpath: //span[text()='Contact']
+Found Element By : By.xpath: //span[text()='Contact']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //span[text()='Contact']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //span[text()='Contact']]
+Trying to find Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]
+Found Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (965907307ed7ea0fa34aed4e9ba847ff)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 11721
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 23, 2022 3:13:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsPageLabel" classname="com.crm.qa.testcases.ContactsPageTest" time="0.084">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Found Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8aff06c25a72d1ca6a15758e3eae66ec)] -> xpath: //a[contains(text(),'Sign Up')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8aff06c25a72d1ca6a15758e3eae66ec)] -> xpath: //a[contains(text(),'Sign Up')]]
+Trying to find Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Found Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8aff06c25a72d1ca6a15758e3eae66ec)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8aff06c25a72d1ca6a15758e3eae66ec)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(text(),'Login')]
+Found Element By : By.xpath: //div[contains(text(),'Login')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8aff06c25a72d1ca6a15758e3eae66ec)] -> xpath: //div[contains(text(),'Login')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8aff06c25a72d1ca6a15758e3eae66ec)] -> xpath: //div[contains(text(),'Login')]]
+Trying to find Element By : By.xpath: //*[@id="main-nav"]/div[3]/a
+Found Element By : By.xpath: //*[@id="main-nav"]/div[3]/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8aff06c25a72d1ca6a15758e3eae66ec)] -> xpath: //*[@id="main-nav"]/div[3]/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8aff06c25a72d1ca6a15758e3eae66ec)] -> xpath: //*[@id="main-nav"]/div[3]/a]
+Trying to find Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[1]
+Found Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[1]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 23658
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 23, 2022 3:13:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0.009">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Found Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c8c4d8b95fa5a27f8fce9e924d719a37)] -> xpath: //a[contains(text(),'Sign Up')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c8c4d8b95fa5a27f8fce9e924d719a37)] -> xpath: //a[contains(text(),'Sign Up')]]
+Trying to find Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Found Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c8c4d8b95fa5a27f8fce9e924d719a37)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c8c4d8b95fa5a27f8fce9e924d719a37)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(text(),'Login')]
+Found Element By : By.xpath: //div[contains(text(),'Login')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c8c4d8b95fa5a27f8fce9e924d719a37)] -> xpath: //div[contains(text(),'Login')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c8c4d8b95fa5a27f8fce9e924d719a37)] -> xpath: //div[contains(text(),'Login')]]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 20272
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 23, 2022 3:13:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserNameTest" classname="com.crm.qa.testcases.HomePageTest" time="1.046">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Found Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4dfda807787792c66d58ac7723bb7d52)] -> xpath: //a[contains(text(),'Sign Up')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4dfda807787792c66d58ac7723bb7d52)] -> xpath: //a[contains(text(),'Sign Up')]]
+Trying to find Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Found Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4dfda807787792c66d58ac7723bb7d52)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4dfda807787792c66d58ac7723bb7d52)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(text(),'Login')]
+Found Element By : By.xpath: //div[contains(text(),'Login')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4dfda807787792c66d58ac7723bb7d52)] -> xpath: //div[contains(text(),'Login')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4dfda807787792c66d58ac7723bb7d52)] -> xpath: //div[contains(text(),'Login')]]
+Trying to find Element By : By.xpath: //span[contains(text(),'Rohit Suryan')]
+Found Element By : By.xpath: //span[contains(text(),'Rohit Suryan')]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 31395
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 23, 2022 3:13:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="4.372">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Found Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (5ba2833ab5c2642d6b75d6b3a5aa8ea1)] -> xpath: //a[contains(text(),'Sign Up')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (5ba2833ab5c2642d6b75d6b3a5aa8ea1)] -> xpath: //a[contains(text(),'Sign Up')]]
+Trying to find Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Found Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (5ba2833ab5c2642d6b75d6b3a5aa8ea1)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (5ba2833ab5c2642d6b75d6b3a5aa8ea1)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(text(),'Login')]
+Found Element By : By.xpath: //div[contains(text(),'Login')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (5ba2833ab5c2642d6b75d6b3a5aa8ea1)] -> xpath: //div[contains(text(),'Login')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (5ba2833ab5c2642d6b75d6b3a5aa8ea1)] -> xpath: //div[contains(text(),'Login')]]
+Trying to find Element By : By.xpath: //*[@id="main-nav"]/div[3]/a
+Found Element By : By.xpath: //*[@id="main-nav"]/div[3]/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (5ba2833ab5c2642d6b75d6b3a5aa8ea1)] -> xpath: //*[@id="main-nav"]/div[3]/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (5ba2833ab5c2642d6b75d6b3a5aa8ea1)] -> xpath: //*[@id="main-nav"]/div[3]/a]
+Trying to find Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[1]
+Found Element By : By.xpath: //*[@id="dashboard-toolbar"]/div[1]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 26001
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 23, 2022 3:14:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.003">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 38594
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 23, 2022 3:13:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="crmLogoImageTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.09">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //img[@class='img-responsive']
+Found Element By : By.xpath: //img[@class='img-responsive']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 37614
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 23, 2022 3:14:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="8.113">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Found Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cda2f38b09dd4e2e0f38b8fcefeef143)] -> xpath: //a[contains(text(),'Sign Up')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cda2f38b09dd4e2e0f38b8fcefeef143)] -> xpath: //a[contains(text(),'Sign Up')]]
+Trying to find Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Found Element By : By.xpath: //a[contains(text(),'Got an account? Log in here')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cda2f38b09dd4e2e0f38b8fcefeef143)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cda2f38b09dd4e2e0f38b8fcefeef143)] -> xpath: //a[contains(text(),'Got an account? Log in here')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(text(),'Login')]
+Found Element By : By.xpath: //div[contains(text(),'Login')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cda2f38b09dd4e2e0f38b8fcefeef143)] -> xpath: //div[contains(text(),'Login')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cda2f38b09dd4e2e0f38b8fcefeef143)] -> xpath: //div[contains(text(),'Login')]]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 10054
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 23, 2022 3:14:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
